@@ -36,5 +36,7 @@ class Calculadora:
         a = float(input('insira o valor de a: '))
         b = float(input('insira o valor de b: '))
         divisao = a / b
+        resto = a % b
         print(f'Resultado: {divisao}')
+        print(f'Resto: {resto}')
         return input('Aperte "enter" para continuar ')
