@@ -2,7 +2,7 @@
 Irei implementar todos os conhecimentos que eu for aprendendo neste diretorio para treinar minhas habilidades
 
 ## O que foi implementado:
-+ Programa??o orientada a Objetos
-+ Importa??o de classes
-+ La?os de repeti??o
++ Programação orientada a Objetos
++ Importação de classes
++ Laços de repetição
 + f-Strings
