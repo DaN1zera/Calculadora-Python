@@ -5,15 +5,15 @@ while True:
     chamada = int(
         input(
             'Soma(0)'
-            '\nSubtracao(1)'
-            '\nMultiplicacao(2)'
-            '\nDivisao(3)'
+            '\nSubtração(1)'
+            '\nMultiplicação(2)'
+            '\nDivisão(3)'
             '\nBhaskara(4)'
-            '\nEscolha a operacao que deseja fazer: '
+            '\nEscolha a operação que deseja fazer: '
         )
     )
     while chamada > 4:
-        print('\nVoce escolheu uma opcao que nao existe')
+        print('\nVoce escolheu uma opção que não existe')
         chamada = int(input('Tente novamente: '))
 
     if chamada == 0:
@@ -27,7 +27,7 @@ while True:
     elif chamada == 4:
         print(calculadora.bhaskara())
 
-    continua = input('Deseja fazer uma nova conta? s/n: ')
+    continua = input('Deseja fazer uma nova operação? s/n: ')
     while continua != 's' and continua != 'n':
         continua = input('Responda com s ou n? s/n: ')
     if continua == 'n':
