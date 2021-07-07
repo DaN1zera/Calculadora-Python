@@ -54,3 +54,6 @@ class Calculadora:
         print(f'{branco}Resultado:{verde} {divisao}')
         print(f'{branco}Resto:{verde} {resto}')
         return input(branco + 'Aperte "enter" para continuar ')
+
+    def cateto(self):
+        return 0
